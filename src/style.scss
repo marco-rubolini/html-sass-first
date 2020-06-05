@@ -19,7 +19,8 @@ header {
 
 h1 {
     color: $colore_primario;
-    text-align: $allineamento_titoli
+    text-align: $allineamento_titoli;
+    text-transform: uppercase;
 }
 
 main {
@@ -31,5 +32,5 @@ main {
 
 h2 {
     color: $colore_secondario;
-    text-align: $allineamento_titoli
+    text-align: $allineamento_titoli;
 }
