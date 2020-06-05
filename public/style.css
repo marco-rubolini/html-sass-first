@@ -4,3 +4,26 @@
   box-sizing: border-box;
 }
 
+header {
+  height: 100px;
+  padding: 30px;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+main {
+  background-color: #E3E3E3;
+  height: calc(100vh - 100px);
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #4A4343;
+  text-align: center;
+}
+

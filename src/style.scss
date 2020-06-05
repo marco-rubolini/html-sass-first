@@ -1,5 +1,35 @@
+$spaziatura_standard: 30px;
+$colore_primario: white;
+$colore_secondario: #4A4343;
+$allineamento_titoli: center;
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    padding: $spaziatura_standard;
+    background-color: black;
+}
+
+h1 {
+    color: $colore_primario;
+    text-align: $allineamento_titoli
+}
+
+main {
+    background-color: #E3E3E3;
+    height: calc(100vh - 100px);
+    padding: $spaziatura_standard;
+    text-align: center;
+}
+
+h2 {
+    color: $colore_secondario;
+    text-align: $allineamento_titoli
 }
